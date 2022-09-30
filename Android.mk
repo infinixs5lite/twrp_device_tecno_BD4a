@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),TECNO-BD4a)
+ifeq ($(TARGET_DEVICE),BD4a)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
